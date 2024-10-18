@@ -2,10 +2,6 @@ import { Observer } from '../types/store';
 import  {reducer } from './reducer'
 import storage from '../utils/storage';
 
-//gestiona los estados, es el jefe, gestiona para que el estado haga un cambio, tambien los guarda.  Tiene el estado anterior y nuevo, por ello hace el cambio. GESTIONA!! TIENE TODO
-//reducer, distoacht, son o que se neesita para que ocurrra
-
-
 //El estado global, appState
 //Estado Inicial
 //EL APPSTATE ES: un objeto que tiene elemntos que se van a necesitar en la pagina. AQUI ABAJO, INITALAPASTATE. A medida que baya navegano va a ir guardando, cosas que son repetitivas, valores que se necesitan.
